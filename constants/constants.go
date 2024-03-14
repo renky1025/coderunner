@@ -50,7 +50,7 @@ var TemplateData = map[string]map[string]string{
 		"cmd":     "go run /tmp/test.go",
 	},
 	"cpp": {
-		"image":   "python:3.10.13",
+		"image":   "gcc",
 		"memory":  "100MB",
 		"cpuset":  "0-3",
 		"timeout": "30",
